@@ -1,0 +1,11 @@
+<div class="st-dashboard">
+    <div class="row header">
+        <div class="col-2">Name</div>
+        <div class="col-2">Age</div>
+        <div class="col-2">Gender</div>
+        <div class="col-2">Grade</div>
+        <div class="col-4"></div>
+    </div>
+    <app-student-detail *ngFor="let student of students" [detail]="student" (add)="onAddStudent()" (update)="onUpdateStudent($event)" (remove)="onRemoveStudent($event)">
+    </app-student-detail>
+</div>

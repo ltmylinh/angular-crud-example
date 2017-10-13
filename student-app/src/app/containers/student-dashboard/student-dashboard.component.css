@@ -1,0 +1,8 @@
+.st-dashboard>.header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dce5f2;
+}
+
+.st-dashboard>.header>div {
+    font-weight: bold;
+}

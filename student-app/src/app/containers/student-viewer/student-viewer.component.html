@@ -1,0 +1,4 @@
+<div class="container">
+    <button class="btn btn-primary btn-sm" (click)="goBackStudentList()">Go Back</button>
+    <app-student-form [detail]="student" [updating]="isUpdate" (update)="onSubmitStudentForm($event)"></app-student-form>
+</div>
